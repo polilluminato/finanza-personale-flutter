@@ -2,10 +2,10 @@ import 'dart:convert';
 
 import 'package:dio/dio.dart';
 import 'package:finanza_personale/models/book_model.dart';
+import 'package:finanza_personale/provider/service_locator.dart';
 
 class BookRepository {
-  BookRepository();
-  final dio = Dio();
+  final dio = getIt<Dio>();
 
   Future<List<BookModel>?> getBookList() async {
     Response response = await dio.get(

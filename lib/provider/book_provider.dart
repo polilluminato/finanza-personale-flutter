@@ -4,7 +4,10 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'book_provider.g.dart';
 
+final bookRepositoryProvider = Provider((_) => BookRepository());
+
 @riverpod
 Future<List<BookModel>?> bookList(BookListRef ref) async {
-  return BookRepository().getBookList();
+  final bookRepository = ref.watch(bookRepositoryProvider);
+  return bookRepository.getBookList();
 }
