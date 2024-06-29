@@ -1,7 +1,7 @@
 {
     "books": [
         {
-            "id": "",
+            "id": "a5abc0b6-5a32-4466-81f6-57be58525f7f",
             "title": "Investire senza trappole",
             "author": "Costantino Forgione",
             "cover": "https://m.media-amazon.com/images/I/61LOnhER6vL._SL1500_.jpg",
@@ -9,7 +9,7 @@
             "published": "2023-09-08"
         },
         {
-            "id": "",
+            "id": "875b8621-aa16-4cb1-af09-6f7d98de6ee9",
             "title": "L'uomo più ricco di Babilonia",
             "author": "George Samuel Clason",
             "cover": "https://m.media-amazon.com/images/I/71gC4ebZQQL._SL1500_.jpg",
