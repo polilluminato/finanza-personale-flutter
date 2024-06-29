@@ -1,0 +1,20 @@
+{
+    "books": [
+        {
+            "id": "",
+            "title": "Investire senza trappole",
+            "author": "Costantino Forgione",
+            "cover": "https://m.media-amazon.com/images/I/61LOnhER6vL._SL1500_.jpg",
+            "link": "https://zltn.4word.it/b/fbCgcaqK",
+            "published": "2023-09-08"
+        },
+        {
+            "id": "",
+            "title": "L'uomo più ricco di Babilonia",
+            "author": "George Samuel Clason",
+            "cover": "https://m.media-amazon.com/images/I/71gC4ebZQQL._SL1500_.jpg",
+            "link": "https://zltn.4word.it/b/6IHijxbB",
+            "published": "2022-06-16"
+        }
+    ]
+}
