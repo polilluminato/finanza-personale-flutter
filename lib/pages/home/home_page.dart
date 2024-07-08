@@ -1,5 +1,5 @@
 import 'package:finanza_personale/models/home_tab_model.dart';
-import 'package:finanza_personale/pages/home/tabs/books_tab.dart';
+import 'package:finanza_personale/pages/home/tabs/book/books_tab.dart';
 import 'package:finanza_personale/pages/home/tabs/media_tab.dart';
 import 'package:finanza_personale/pages/home/tabs/tools_tab.dart';
 import 'package:finanza_personale/pages/settings/settings_page.dart';
