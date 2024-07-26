@@ -1,3 +1,4 @@
+import 'package:finanza_personale/l10n/localized_context.dart';
 import 'package:finanza_personale/pages/settings/ui/about_row.dart';
 import 'package:finanza_personale/styles/dimens.dart';
 import 'package:finanza_personale/utils/utils.dart';
@@ -16,7 +17,7 @@ class SettingsPage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Impostazioni"),
+        title: Text(context.loc.settingsPageTitle),
       ),
       body: ListView(
         children: [
@@ -27,16 +28,16 @@ class SettingsPage extends ConsumerWidget {
               top: Dimens.hugePadding,
             ),
             alignment: Alignment.centerLeft,
-            child: const Text(
-              "APP",
-              style: TextStyle(
+            child: Text(
+              context.loc.settingsPageSectionApp,
+              style: const TextStyle(
                 fontSize: 14,
               ),
             ),
           ),
           AboutRow(
             icon: Icons.code,
-            title: "Repository",
+            title: context.loc.settingsPageRepositoryLabel,
             callback: () {
               launchURL(
                   "https://github.com/polilluminato/finanza-personale-flutter");
@@ -44,7 +45,7 @@ class SettingsPage extends ConsumerWidget {
           ),
           AboutRow(
             icon: Icons.policy,
-            title: "Privacy Policy",
+            title: context.loc.settingsPagePrivacyPolicyLabel,
             callback: () {
               launchURL(
                   "https://github.com/polilluminato/finanza-personale-flutter");
@@ -52,7 +53,7 @@ class SettingsPage extends ConsumerWidget {
           ),
           AboutRow(
             icon: Icons.favorite,
-            title: "Sponsor",
+            title: context.loc.settingsPageSponsorLabel,
             callback: () {
               launchURL("https://github.com/sponsors/polilluminato");
             },
@@ -64,44 +65,44 @@ class SettingsPage extends ConsumerWidget {
               top: Dimens.hugePadding,
             ),
             alignment: Alignment.centerLeft,
-            child: const Text(
-              "SVILUPPATORE",
-              style: TextStyle(
+            child: Text(
+              context.loc.settingsPageSectionDeveloper,
+              style: const TextStyle(
                 fontSize: 14,
               ),
             ),
           ),
           AboutRow(
             icon: Icons.person,
-            title: "Sito Web",
+            title: context.loc.settingsPageWebsiteLabel,
             callback: () {
               launchURL("https://www.albertobonacina.com/");
             },
           ),
           AboutRow(
             icon: Icons.domain,
-            title: "Seguimi su GitHub",
+            title: context.loc.settingsPageFollowGithubLabel,
             callback: () {
               launchURL("https://www.github.com/polilluminato");
             },
           ),
           AboutRow(
             icon: Icons.flutter_dash,
-            title: "Seguimi su X/Twitter",
+            title: context.loc.settingsPageFollowTwitterLabel,
             callback: () {
               launchURL("https://www.twitter.com/polilluminato");
             },
           ),
           AboutRow(
             icon: Icons.campaign,
-            title: "Seguimi su Mastodon",
+            title: context.loc.settingsPageFollowMastodonLabel,
             callback: () {
               launchURL("https://fluttercommunity.social/@polilluminato");
             },
           ),
           AboutRow(
             icon: Icons.business,
-            title: "Connettiti su LinkedIn",
+            title: context.loc.settingsPageFollowLinkedinLabel,
             callback: () {
               launchURL("https://www.linkedin.com/in/bonacinaalberto");
             },
@@ -115,7 +116,7 @@ class SettingsPage extends ConsumerWidget {
                 (BuildContext context, AsyncSnapshot<PackageInfo> snapshot) {
               if (snapshot.hasData) {
                 return Text(
-                  "Wassword ${snapshot.data!.version}\nMade with ☕ and 💙 by Alberto Bonacina",
+                  context.loc.settingsPageFooterLabel(snapshot.data!.version),
                   textAlign: TextAlign.center,
                   style: const TextStyle(
                     fontSize: 12,

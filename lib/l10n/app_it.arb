@@ -1,0 +1,27 @@
+{
+    "appTitle": "Finanza Personale",
+    "homeTabBooks": "Libri",
+    "homeTabMedia": "Media",
+    "homeTabTools": "Strumenti",
+
+    "settingsPageTitle": "Impostazioni",
+    "settingsPageSectionApp": "APP",
+    "settingsPageRepositoryLabel": "Repository",
+    "settingsPagePrivacyPolicyLabel": "Privacy Policy",
+    "settingsPageSponsorLabel": "Sponsor",
+    "settingsPageSectionDeveloper": "SVILUPPATORE",
+    "settingsPageWebsiteLabel": "Sito Web",
+    "settingsPageFollowGithubLabel": "Seguimi su GitHub",
+    "settingsPageFollowTwitterLabel": "Seguimi su X/Twitter",
+    "settingsPageFollowMastodonLabel": "Seguimi su Mastodon",
+    "settingsPageFollowLinkedinLabel": "Connettiti su LinkedIn",
+    "settingsPageFooterLabel": "Wassword {version}\nFatto con ☕ e 💙 da Alberto Bonacina",
+    "@settingsPageFooterLabel": {
+        "placeholders" : {
+            "version" : {
+                "type": "String"
+            }
+        }
+    }
+
+}
