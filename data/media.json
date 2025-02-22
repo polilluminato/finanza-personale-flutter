@@ -30,6 +30,26 @@
          ]
       },
       {
+         "id": "",
+         "type": "gallery",
+         "cover": "https://img.youtube.com/vi/cjukaldEJKM/hqdefault.jpg",
+         "title": "CORSO di FINANZA PERSONALE: impara a GESTIRE i TUOI SOLDI in modo OTTIMALE",
+         "description": "",
+         "link": "https://www.youtube.com/playlist?list=PLhhAltp0qPbZWxUHuIMNQbDxrCIlJrR9i",
+         "published": "2024-02-22",
+         "items": [
+            {
+               "id": "99141c1a-e5e0-413c-988e-68c5fa64b1a0",
+               "type": "ytvideo",
+               "cover": "https://img.youtube.com/vi/cjukaldEJKM/hqdefault.jpg",
+               "title": "CORSO di FINANZA PERSONALE | Ep.1: Basi di EDUCAZIONE FINANZIARIA (e perché è IMPORTANTISSIMA)",
+               "description": "",
+               "link": "https://www.youtube.com/watch?v=cjukaldEJKM",
+               "published": "2024-02-22"
+            }
+         ]
+      },
+      {
          "id": "3039d749-ecf7-4c0b-8ede-85b3420a7554",
          "type": "ytvideo",
          "cover": "https://img.youtube.com/vi/wMOP4b5saxk/hqdefault.jpg",
