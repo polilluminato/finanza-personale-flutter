@@ -3,7 +3,7 @@
       {
          "id": "c423fd1d-b6e9-46c1-b9c3-229f0c0eba1f",
          "type": "gallery",
-         "cover": "",
+         "cover": "https://img.youtube.com/vi/cSlr2I1GGiw/hqdefault.jpg",
          "title": "Educati e Finanziati",
          "description": "",
          "link": "https://www.youtube.com/playlist?list=PLfuzpc-H8qcdetz_Zwc5ILnbiG6eek_T8",
@@ -12,7 +12,7 @@
             {
                "id": "99141c1a-e5e0-413c-988e-68c5fa64b1a0",
                "type": "ytvideo",
-               "cover": "",
+               "cover": "https://img.youtube.com/vi/cSlr2I1GGiw/hqdefault.jpg",
                "title": "Educati e Finanziati 01: introduzione al nuovo corso di finanza di base",
                "description": "",
                "link": "https://www.youtube.com/watch?v=cSlr2I1GGiw",
@@ -21,7 +21,7 @@
             {
                "id": "4b74d265-ac6e-42bc-88dc-bfe17abddbf7",
                "type": "ytvideo",
-               "cover": "",
+               "cover": "https://img.youtube.com/vi/pxSBZHHQxSM/hqdefault.jpg",
                "title": "Educati e Finanziati 02: Strategia di investimento a quattro pilastri | corso base di finanza",
                "description": "",
                "link": "https://www.youtube.com/watch?v=pxSBZHHQxSM",
@@ -32,7 +32,7 @@
       {
          "id": "3039d749-ecf7-4c0b-8ede-85b3420a7554",
          "type": "ytvideo",
-         "cover": "",
+         "cover": "https://img.youtube.com/vi/wMOP4b5saxk/hqdefault.jpg",
          "title": "Finanza personale dalla A alla Z con @PaoloColetti",
          "description": "",
          "link": "https://www.youtube.com/watch?v=wMOP4b5saxk",
